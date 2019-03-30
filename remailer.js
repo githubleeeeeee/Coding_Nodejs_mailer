@@ -98,15 +98,8 @@ var transporter = nodemailer.createTransport({
 
 
  
-       html: '<b>Hi</b>,<br/><br/> Please check the your 
-
-
- 
-video<br/><br/> Smart Mirror : ' + Date() + '
-
-
- 
-<br/><br/>Dear, <br/><i>Smart Mirror</i>',
+       html: '<b>Hi</b>,<br/><br/> Please check the your video<br/><br/> Smart Mirror : ' + Date() + '
+ <br/><br/>Dear, <br/><i>Smart Mirror</i>',
 
 
  
